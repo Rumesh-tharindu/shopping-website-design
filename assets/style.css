@@ -1,0 +1,119 @@
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    margin: 0;
+}
+.w3l-banner-slider-main .top-right-strip{
+    padding: 15px 15px 0 15px;
+    align-items: center;
+}
+.w3l-banner-slider-main .top-right-strip .top-hny-left-content h6{
+    font-size: 14px;
+    line-height: 26px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.w3l-banner-slider-main ul.top-hnt-right-content{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: flex-end;
+
+}
+.w3l-banner-slider-main ul.top-hnt-right-content li{
+    list-style: none;
+    margin-left: 16px;
+}
+.overlay-login{
+    position: fixed;
+    top:0;
+    right: 0;
+    background: #3a3535;
+    padding: 3em 3em ;
+    height: 100%;
+    overflow: auto;
+
+}
+.w3l-banner-slider-main .wrap {
+    margin:5em auto 0;
+}
+.w3l-banner-slider-main .wrap h5{
+    font-size: 2em;
+    
+}
+.w3l-banner-slider-main .login-bghny{
+    background:  #232020;
+    border-radius: 6px;
+}
+.w3l-banner-slider-main p.login-texthny{
+ color:#f4f4f4;
+ font-size: 16px;
+ font-weight: 600px;
+ text-transform: capitalize;
+}
+.w3l-banner-slider-main .form-check{
+    position: relative;
+}
+.w3l-banner-slider-main .userhny-check input.form-check{
+    display: none;
+
+}
+.w3l-banner-slider-main .userhny-check .checkmark{
+    position: absolute;
+    top:3px;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    background-color: #f8f9fa;
+    border: 1px solid #3a3535;
+    border-radius: 4px;
+}
+.w3l-banner-slider-main .userhny-check label.container input:checked~.checkmark {
+    background-color: #ff7315;
+    border: transparent;
+  }
+
+  .w3l-banner-slider-main .userhny-check .checkmark:after {
+    content: "";
+    position: absolute;
+   
+  }
+  
+  .w3l-banner-slider-main .userhny-check label.container input:checked~.checkmark:after {
+    display: block;
+  }
+  
+  .w3l-banner-slider-main .userhny-check label.container .checkmark:after {
+    left: 5px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0px 2px 2px 0px;
+    transform: rotate(45deg);
+  }
+
+  .w3l-banner-slider-main .userhny-check p.privacy-policy{
+      margin: 0;
+      font-size: 15px;
+        color: #c5b2b2;
+        font-weight: 600;
+  }
+
+  .w3l-banner-slider-main .overlay-login .overlay-close1{
+ 
+     color:#fff;
+     width:40px;
+     height: 40px;
+     background: none;
+     border: 2px solid #232020;
+     border-radius: 6px;
+     position: absolute;
+     left:20px;
+     top:20px;
+     cursor: pointer;
+     z-index: 999;
+     outline: none;
+     overflow: hidden;
+  }
